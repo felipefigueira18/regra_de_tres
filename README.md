@@ -5,21 +5,21 @@ Este projeto é uma calculadora de Regra de Três Simples desenvolvida com HTML,
 ## Demonstração
 
 Acesse o projeto online:  
-https://felipefigueira18.github.io/regra_de_tres/
+👉 https://felipefigueira18.github.io/regra_de_tres/
 
 ## Funcionalidades
 
 - Cálculo automático de regra de três simples
 - Interface moderna e responsiva
 - Validação de valores inválidos
-- Resultado formatado no padrão brasileiro
 - Feedback visual interativo
+- Resultado formatado no padrão brasileiro
 
 ## Tecnologias utilizadas
 
 - HTML5 — estrutura da aplicação  
 - CSS3 — estilização e design moderno  
-- JavaScript — lógica de cálculo e manipulação do DOM  
+- JavaScript — lógica e interatividade  
 
 ## Como executar o projeto
 
