@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+:root {
+    --color-primary-1: #ffe53bd8;
+    --color-primary-2: #ff6a25da;
+
+    --color-neutral-1: #e5e7eb;
+    --color-neutral-2: #343434;
+    --color-neutral-3: #1c1c1c;
+
+    --linear-gradient: linear-gradient(120deg, var(--color-primary-1), var(--color-primary-2));
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* fundo animado */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--linear-gradient);
+    animation: gradientMove 8s ease infinite alternate;
+}
+
+/* animação do fundo */
+@keyframes gradientMove {
+    from {
+        filter: brightness(1);
+    }
+    to {
+        filter: brightness(1.15);
+    }
+}
+
+/* calculadora */
+.calculator {
+    background: rgba(28, 28, 28, 0.85);
+    backdrop-filter: blur(15px);
+    color: var(--color-neutral-1);
+    box-shadow: 
+        0 15px 35px rgba(0,0,0,0.4),
+        0 0 15px rgba(255,106,37,0.2);
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    width: 350px;
+    animation: fadeIn 0.8s ease;
+}
+
+/* animação entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* título */
+.calculator h1 {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* container */
+.input-container {
+    margin: 25px 0;
+}
+
+/* grupo */
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* inputs */
+.input-group input {
+    background-color: var(--color-neutral-2);
+    color: var(--color-neutral-1);
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+/* hover input */
+.input-group input:hover {
+    border: 1px solid var(--color-primary-1);
+}
+
+/* focus input */
+.input-group input:focus {
+    outline: none;
+    border: 1px solid var(--color-primary-2);
+    box-shadow: 0 0 10px rgba(255,106,37,0.5);
+    transform: scale(1.05);
+}
+
+/* texto */
+.input-group span {
+    background-color: var(--color-neutral-2);
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin: 0 5px;
+}
+
+/* resultado */
+#result {
+    background: var(--linear-gradient);
+    border-radius: 8px;
+    padding: 10px;
+    width: 100px;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(255,106,37,0.4);
+    transition: 0.3s;
+}
+
+/* texto central */
+.input-text {
+    margin: 15px 0;
+    font-weight: 500;
+}
+
+/* botão */
+#calculate {
+    background: var(--linear-gradient);
+    border: none;
+    color: var(--color-neutral-1);
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+}
+
+/* hover botão */
+#calculate:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* clique botão */
+#calculate:active {
+    transform: scale(0.96);
+}
