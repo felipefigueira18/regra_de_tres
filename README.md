@@ -1,29 +1,29 @@
 # Calculadora de Regra de Três Simples
 
-Este projeto é uma calculadora de Regra de Três Simples desenvolvida utilizando HTML, CSS e JavaScript. A aplicação permite calcular automaticamente o valor desconhecido em uma proporção, oferecendo uma interface moderna, intuitiva e responsiva.
+Este projeto é uma calculadora de Regra de Três Simples desenvolvida com HTML, CSS e JavaScript. A aplicação permite calcular automaticamente o valor desconhecido em uma proporção entre três valores conhecidos, com uma interface moderna, intuitiva e responsiva.
 
-## Visualizar o projeto
+## Demonstração
 
 Acesse o projeto online:  
-https://SEU-USUARIO.github.io/regra-de-tres-simples/
+https://felipefigueira18.github.io/regra_de_tres/
 
 ## Funcionalidades
 
-- Inserção de três valores conhecidos (A, B e C)
-- Cálculo automático da quarta variável
-- Validação de dados inválidos
+- Cálculo automático de regra de três simples
 - Interface moderna e responsiva
+- Validação de valores inválidos
 - Resultado formatado no padrão brasileiro
+- Feedback visual interativo
 
 ## Tecnologias utilizadas
 
 - HTML5 — estrutura da aplicação  
 - CSS3 — estilização e design moderno  
-- JavaScript — lógica de cálculo e interatividade  
+- JavaScript — lógica de cálculo e manipulação do DOM  
 
 ## Como executar o projeto
 
 Clone este repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/regra-de-tres-simples.git
+git clone https://github.com/felipefigueira18/regra_de_tres.git
